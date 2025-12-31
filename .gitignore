@@ -1,0 +1,39 @@
+venv/
+env/
+
+# Environment variables
+.env
+
+# Token file
+token.json
+*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files
+data/*.csv
+!data/sample_*.csv
+tradestation_data/
+
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Archive files
+archive/
+backup/
+
+# Notes
+notes.md
+
+# Models (large files)
+models/*.pkl
+!models/README.md
+
