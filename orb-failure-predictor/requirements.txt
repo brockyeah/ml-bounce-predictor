@@ -1,0 +1,31 @@
+# ORB Failure Predictor — dependencies
+# Install: pip install -r requirements.txt
+
+# Core data
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ML model
+lightgbm>=4.3.0
+
+# Hyperparameter optimisation (Bayesian, replaces GridSearchCV)
+optuna>=3.5.0
+
+# Class imbalance (SMOTE-Tomek)
+imbalanced-learn>=0.12.0
+
+# Feature engineering — 130+ financial indicators
+pandas-ta>=0.3.14b
+
+# Explainability
+shap>=0.44.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Terminal UI
+rich>=13.0.0
+
+# Sklearn (calibration, metrics, CV)
+scikit-learn>=1.4.0
